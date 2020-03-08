@@ -1,0 +1,9 @@
+vsim Atividade01
+add wave *
+
+force sw(3) 1 0
+force sw(2) 1 0
+force sw(1) 0 0
+force sw(0) 1 0
+
+run 10
